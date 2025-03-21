@@ -33,14 +33,14 @@
             width: 100%;
             margin-top: 10px;
         }
-        .playlist {
+        .folder-list, .file-list {
             list-style: none;
             padding: 0;
             margin-top: 20px;
             max-height: 300px;
             overflow-y: auto;
         }
-        .playlist li {
+        .folder-list li, .file-list li {
             cursor: pointer;
             padding: 10px;
             background: rgba(255, 255, 255, 0.2);
@@ -48,7 +48,7 @@
             border-radius: 5px;
             transition: background 0.3s;
         }
-        .playlist li:hover {
+        .folder-list li:hover, .file-list li:hover {
             background: rgba(255, 255, 255, 0.4);
         }
     </style>
@@ -56,41 +56,80 @@
 <body>
     <div class="container">
         <h1>You can listen to the KJV Audio Bible here</h1>
-        <p>Select a track and press play.</p>
+        <p>Select a folder to view tracks, and click a track to play.</p>
 
         <audio id="audioPlayer" controls>
-            <source id="audioSource" src="https://f005.backblazeb2.com/file/audio-bible/01003+0_KJV_Bible-Genesis001.mp3" type="audio/mpeg">
+            <source id="audioSource" src="" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
 
-        <ul id="file-list" class="playlist"></ul>  <!-- Playlist container -->
+        <h2>Select Folder</h2>
+        <ul id="folder-list" class="folder-list"></ul>
+
+        <h2>Select Track</h2>
+        <ul id="file-list" class="file-list"></ul>  <!-- Playlist container -->
     </div>
 
     <script>
-        fetch('files.json')  // Fetch the file list
+        let currentFolder = null;
+        let currentFileIndex = 0;
+        let currentFiles = [];
+
+        // Fetch the file data from the JSON
+        fetch('files.json')
             .then(response => response.json())
             .then(data => {
-                const container = document.getElementById('file-list');
-                data.forEach(item => {
-                    const li = document.createElement('li');
-                    li.textContent = item.file;  // Display file name
-
-                    // Add click event to update audio source
-                    li.addEventListener('click', function() {
-                        const audioPlayer = document.getElementById('audioPlayer');
-                        const audioSource = document.getElementById('audioSource');
-                        const audioUrl = `https://audio-bible.s3.us-east-005.backblazeb2.com/${item.file}`;
-                        audioSource.src = audioUrl;  // Update source
-                        audioPlayer.load();  // Reload audio player to reflect the new source
-                        audioPlayer.play();  // Automatically start playing the selected file
+                // Generate the folder list
+                const folderListContainer = document.getElementById('folder-list');
+                data.folders.forEach(folder => {
+                    const folderItem = document.createElement('li');
+                    folderItem.textContent = folder.name;
+                    folderItem.addEventListener('click', () => {
+                        currentFolder = folder;
+                        currentFileIndex = 0;  // Reset to the first file
+                        displayFiles(folder.files);
                     });
-
-                    container.appendChild(li);  // Append to the playlist
+                    folderListContainer.appendChild(folderItem);
                 });
             })
             .catch(error => console.error('Error loading file list:', error));
+
+        // Display files in a folder
+        function displayFiles(files) {
+            const fileListContainer = document.getElementById('file-list');
+            fileListContainer.innerHTML = '';  // Clear the previous file list
+            currentFiles = files;
+
+            files.forEach((item, index) => {
+                const fileItem = document.createElement('li');
+                fileItem.textContent = item.file;
+                fileItem.addEventListener('click', () => {
+                    playAudio(index);
+                });
+                fileListContainer.appendChild(fileItem);
+            });
+        }
+
+        // Play selected audio file
+        function playAudio(index) {
+            const audioPlayer = document.getElementById('audioPlayer');
+            const audioSource = document.getElementById('audioSource');
+            const audioUrl = `https://audio-bible.s3.us-east-005.backblazeb2.com/${currentFiles[index].file}`;
+            audioSource.src = audioUrl;  // Set the audio source URL
+            audioPlayer.load();  // Reload the audio player with the new source
+            audioPlayer.play();  // Start playing the audio
+            currentFileIndex = index;
+        }
+
+        // Automatically play the next file when the current one ends
+        document.getElementById('audioPlayer').addEventListener('ended', () => {
+            if (currentFileIndex < currentFiles.length - 1) {
+                playAudio(currentFileIndex + 1);
+            }
+        });
     </script>
 </body>
 </html>
+
 
 
