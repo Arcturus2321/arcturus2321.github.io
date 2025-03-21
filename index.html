@@ -62,24 +62,35 @@
             <source id="audioSource" src="https://f005.backblazeb2.com/file/audio-bible/01003+0_KJV_Bible-Genesis001.mp3" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
+
+        <ul id="file-list" class="playlist"></ul>  <!-- Playlist container -->
     </div>
-</body>
-    
-<script>
-    fetch('files.json')
-        .then(response => response.json())
-        .then(data => {
-            const container = document.getElementById('file-list');
-            data.forEach(item => {
-                const div = document.createElement('div');
-                div.innerHTML = `<a href="https://audio-bible.s3.us-west-004.backblazeb2.com/${item.file}">${item.file}</a>`;
-                container.appendChild(div);
-            });
-        });
-</script>
 
-<div id="file-list"></div>
+    <script>
+        fetch('files.json')  // Fetch the file list
+            .then(response => response.json())
+            .then(data => {
+                const container = document.getElementById('file-list');
+                data.forEach(item => {
+                    const li = document.createElement('li');
+                    li.textContent = item.file;  // Display file name
 
+                    // Add click event to update audio source
+                    li.addEventListener('click', function() {
+                        const audioPlayer = document.getElementById('audioPlayer');
+                        const audioSource = document.getElementById('audioSource');
+                        const audioUrl = `https://audio-bible.s3.us-east-005.backblazeb2.com/${item.file}`;
+                        audioSource.src = audioUrl;  // Update source
+                        audioPlayer.load();  // Reload audio player to reflect the new source
+                        audioPlayer.play();  // Automatically start playing the selected file
+                    });
+
+                    container.appendChild(li);  // Append to the playlist
+                });
+            })
+            .catch(error => console.error('Error loading file list:', error));
+    </script>
 </body>
 </html>
+
 
