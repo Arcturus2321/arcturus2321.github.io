@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modern Audio Player</title>
+    <title>Audio Bible Player</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -55,16 +55,16 @@
 </head>
 <body>
     <div class="container">
-        <h1>Listen to This Playlist</h1>
+        <h1>You can listen to the KJV Audio Bible here</h1>
         <p>Select a track or let them play in sequence.</p>
         <audio id="audioPlayer" controls>
-            <source id="audioSource" src="" type="audio/mpeg">
+            <source id="audioSource" src="https://f005.backblazeb2.com/file/audio-bible/01003+0_KJV_Bible-Genesis001.mp3" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
         <ul class="playlist" id="playlist"></ul>
     </div>
     
-    <script>
+<!--     <script>
         const audioPlayer = document.getElementById("audioPlayer");
         const audioSource = document.getElementById("audioSource");
         const playlistElement = document.getElementById("playlist");
@@ -107,7 +107,7 @@
         });
 
         loadPlaylist();
-    </script>
+    </script> -->
 </body>
 </html>
 
