@@ -1,370 +1,140 @@
-[
-    {
-        "file": "01003 0_KJV_Bible-Genesis001.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01015 0_KJV_Bible-Genesis002.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01022 0_KJV_Bible-Genesis003.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01030 0_KJV_Bible-Genesis004.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01036 0_KJV_Bible-Genesis005.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01039 0_KJV_Bible-Genesis006.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01044 0_KJV_Bible-Genesis007.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01045 0_KJV_Bible-Genesis008.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01047 0_KJV_Bible-Genesis009.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01050 0_KJV_Bible-Genesis010.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01053 0_KJV_Bible-Genesis011.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01056 0_KJV_Bible-Genesis012.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01060 0_KJV_Bible-Genesis013.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01063 0_KJV_Bible-Genesis014.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01066 0_KJV_Bible-Genesis015.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01069 0_KJV_Bible-Genesis016.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01072 0_KJV_Bible-Genesis017.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01079 0_KJV_Bible-Genesis018.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01083 0_KJV_Bible-Genesis019.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01087 0_KJV_Bible-Genesis020.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01088 0_KJV_Bible-Genesis021.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01090 0_KJV_Bible-Genesis022.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01095 0_KJV_Bible-Genesis023.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01098 0_KJV_Bible-Genesis024.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01109 0_KJV_Bible-Genesis025.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01115 0_KJV_Bible-Genesis026.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01120 0_KJV_Bible-Genesis027.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01125 0_KJV_Bible-Genesis028.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01130 0_KJV_Bible-Genesis029.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01137 0_KJV_Bible-Genesis030.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01140 0_KJV_Bible-Genesis031.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01148 0_KJV_Bible-Genesis032.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01155 0_KJV_Bible-Genesis033.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01159 0_KJV_Bible-Genesis034.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01164 0_KJV_Bible-Genesis035.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01168 0_KJV_Bible-Genesis036.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01171 0_KJV_Bible-Genesis037.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01180 0_KJV_Bible-Genesis038.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01185 0_KJV_Bible-Genesis039.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01190 0_KJV_Bible-Genesis040.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01194 0_KJV_Bible-Genesis041.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01202 0_KJV_Bible-Genesis042.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01208 0_KJV_Bible-Genesis043.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01212 0_KJV_Bible-Genesis044.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01215 0_KJV_Bible-Genesis045.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01218 0_KJV_Bible-Genesis046.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01222 0_KJV_Bible-Genesis047.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01228 0_KJV_Bible-Genesis048.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01233 0_KJV_Bible-Genesis049.mp3",
-        "folder": ""
-    },
-    {
-        "file": "01241 0_KJV_Bible-Genesis050.mp3",
-        "folder": ""
-    },
-    {
-        "file": "Exodus/.bzEmpty",
-        "folder": "Exodus"
-    },
-    {
-        "file": "Exodus/02002 0_KJV_Bible-Exodus001.mp3",
-        "folder": "Exodus"
-    },
-    {
-        "file": "Exodus/02005 0_KJV_Bible-Exodus002.mp3",
-        "folder": "Exodus"
-    },
-    {
-        "file": "Exodus/02011 0_KJV_Bible-Exodus003.mp3",
-        "folder": "Exodus"
-    },
-    {
-        "file": "Exodus/02015 0_KJV_Bible-Exodus004.mp3",
-        "folder": "Exodus"
-    },
-    {
-        "file": "Exodus/02019 0_KJV_Bible-Exodus005.mp3",
-        "folder": "Exodus"
-    },
-    {
-        "file": "Exodus/02021 0_KJV_Bible-Exodus006.mp3",
-        "folder": "Exodus"
-    },
-    {
-        "file": "Exodus/02024 0_KJV_Bible-Exodus007.mp3",
-        "folder": "Exodus"
-    },
-    {
-        "file": "Exodus/02028 0_KJV_Bible-Exodus008.mp3",
-        "folder": "Exodus"
-    },
-    {
-        "file": "Exodus/02031 0_KJV_Bible-Exodus009.mp3",
-        "folder": "Exodus"
-    },
-    {
-        "file": "Exodus/02034 0_KJV_Bible-Exodus010.mp3",
-        "folder": "Exodus"
-    },
-    {
-        "file": "Exodus/02038 0_KJV_Bible-Exodus011.mp3",
-        "folder": "Exodus"
-    },
-    {
-        "file": "Exodus/02040 0_KJV_Bible-Exodus012.mp3",
-        "folder": "Exodus"
-    },
-    {
-        "file": "Exodus/02047 0_KJV_Bible-Exodus013.mp3",
-        "folder": "Exodus"
-    },
-    {
-        "file": "Exodus/02050 0_KJV_Bible-Exodus014.mp3",
-        "folder": "Exodus"
-    },
-    {
-        "file": "Exodus/02054 0_KJV_Bible-Exodus015.mp3",
-        "folder": "Exodus"
-    },
-    {
-        "file": "Exodus/02058 0_KJV_Bible-Exodus016.mp3",
-        "folder": "Exodus"
-    },
-    {
-        "file": "Exodus/02062 0_KJV_Bible-Exodus017.mp3",
-        "folder": "Exodus"
-    },
-    {
-        "file": "Exodus/02065 0_KJV_Bible-Exodus018.mp3",
-        "folder": "Exodus"
-    },
-    {
-        "file": "Exodus/02067 0_KJV_Bible-Exodus019.mp3",
-        "folder": "Exodus"
-    },
-    {
-        "file": "Exodus/02071 0_KJV_Bible-Exodus020.mp3",
-        "folder": "Exodus"
-    },
-    {
-        "file": "Exodus/02078 0_KJV_Bible-Exodus021.mp3",
-        "folder": "Exodus"
-    },
-    {
-        "file": "Exodus/02080 0_KJV_Bible-Exodus022.mp3",
-        "folder": "Exodus"
-    },
-    {
-        "file": "Exodus/02083 0_KJV_Bible-Exodus023.mp3",
-        "folder": "Exodus"
-    },
-    {
-        "file": "Exodus/02085 0_KJV_Bible-Exodus024.mp3",
-        "folder": "Exodus"
-    },
-    {
-        "file": "Exodus/02087 0_KJV_Bible-Exodus025.mp3",
-        "folder": "Exodus"
-    },
-    {
-        "file": "Exodus/02095 0_KJV_Bible-Exodus026.mp3",
-        "folder": "Exodus"
-    },
-    {
-        "file": "Exodus/02097 0_KJV_Bible-Exodus027.mp3",
-        "folder": "Exodus"
-    },
-    {
-        "file": "Exodus/02099 0_KJV_Bible-Exodus028.mp3",
-        "folder": "Exodus"
-    },
-    {
-        "file": "Exodus/02104 0_KJV_Bible-Exodus029.mp3",
-        "folder": "Exodus"
-    },
-    {
-        "file": "Exodus/02107 0_KJV_Bible-Exodus030.mp3",
-        "folder": "Exodus"
-    },
-    {
-        "file": "Exodus/02112 0_KJV_Bible-Exodus031.mp3",
-        "folder": "Exodus"
-    },
-    {
-        "file": "Exodus/02114 0_KJV_Bible-Exodus032.mp3",
-        "folder": "Exodus"
-    },
-    {
-        "file": "Exodus/02119 0_KJV_Bible-Exodus033.mp3",
-        "folder": "Exodus"
-    },
-    {
-        "file": "Exodus/02121 0_KJV_Bible-Exodus034.mp3",
-        "folder": "Exodus"
-    },
-    {
-        "file": "Exodus/02124 0_KJV_Bible-Exodus035.mp3",
-        "folder": "Exodus"
-    },
-    {
-        "file": "Exodus/02125 0_KJV_Bible-Exodus036.mp3",
-        "folder": "Exodus"
-    },
-    {
-        "file": "Exodus/02127 0_KJV_Bible-Exodus037.mp3",
-        "folder": "Exodus"
-    },
-    {
-        "file": "Exodus/02128 0_KJV_Bible-Exodus038.mp3",
-        "folder": "Exodus"
-    },
-    {
-        "file": "Exodus/02132 0_KJV_Bible-Exodus039.mp3",
-        "folder": "Exodus"
-    },
-    {
-        "file": "Exodus/02134 0_KJV_Bible-Exodus040.mp3",
-        "folder": "Exodus"
-    },
-    {
-        "file": "Genesis/.bzEmpty",
-        "folder": "Genesis"
-    }
-]
+{
+    "folders": [
+        {
+            "name": "Exodus",
+            "files": [
+                {
+                    "file": "Exodus/.bzEmpty"
+                },
+                {
+                    "file": "Exodus/02002 0_KJV_Bible-Exodus001.mp3"
+                },
+                {
+                    "file": "Exodus/02005 0_KJV_Bible-Exodus002.mp3"
+                },
+                {
+                    "file": "Exodus/02011 0_KJV_Bible-Exodus003.mp3"
+                },
+                {
+                    "file": "Exodus/02015 0_KJV_Bible-Exodus004.mp3"
+                },
+                {
+                    "file": "Exodus/02019 0_KJV_Bible-Exodus005.mp3"
+                },
+                {
+                    "file": "Exodus/02021 0_KJV_Bible-Exodus006.mp3"
+                },
+                {
+                    "file": "Exodus/02024 0_KJV_Bible-Exodus007.mp3"
+                },
+                {
+                    "file": "Exodus/02028 0_KJV_Bible-Exodus008.mp3"
+                },
+                {
+                    "file": "Exodus/02031 0_KJV_Bible-Exodus009.mp3"
+                },
+                {
+                    "file": "Exodus/02034 0_KJV_Bible-Exodus010.mp3"
+                },
+                {
+                    "file": "Exodus/02038 0_KJV_Bible-Exodus011.mp3"
+                },
+                {
+                    "file": "Exodus/02040 0_KJV_Bible-Exodus012.mp3"
+                },
+                {
+                    "file": "Exodus/02047 0_KJV_Bible-Exodus013.mp3"
+                },
+                {
+                    "file": "Exodus/02050 0_KJV_Bible-Exodus014.mp3"
+                },
+                {
+                    "file": "Exodus/02054 0_KJV_Bible-Exodus015.mp3"
+                },
+                {
+                    "file": "Exodus/02058 0_KJV_Bible-Exodus016.mp3"
+                },
+                {
+                    "file": "Exodus/02062 0_KJV_Bible-Exodus017.mp3"
+                },
+                {
+                    "file": "Exodus/02065 0_KJV_Bible-Exodus018.mp3"
+                },
+                {
+                    "file": "Exodus/02067 0_KJV_Bible-Exodus019.mp3"
+                },
+                {
+                    "file": "Exodus/02071 0_KJV_Bible-Exodus020.mp3"
+                },
+                {
+                    "file": "Exodus/02078 0_KJV_Bible-Exodus021.mp3"
+                },
+                {
+                    "file": "Exodus/02080 0_KJV_Bible-Exodus022.mp3"
+                },
+                {
+                    "file": "Exodus/02083 0_KJV_Bible-Exodus023.mp3"
+                },
+                {
+                    "file": "Exodus/02085 0_KJV_Bible-Exodus024.mp3"
+                },
+                {
+                    "file": "Exodus/02087 0_KJV_Bible-Exodus025.mp3"
+                },
+                {
+                    "file": "Exodus/02095 0_KJV_Bible-Exodus026.mp3"
+                },
+                {
+                    "file": "Exodus/02097 0_KJV_Bible-Exodus027.mp3"
+                },
+                {
+                    "file": "Exodus/02099 0_KJV_Bible-Exodus028.mp3"
+                },
+                {
+                    "file": "Exodus/02104 0_KJV_Bible-Exodus029.mp3"
+                },
+                {
+                    "file": "Exodus/02107 0_KJV_Bible-Exodus030.mp3"
+                },
+                {
+                    "file": "Exodus/02112 0_KJV_Bible-Exodus031.mp3"
+                },
+                {
+                    "file": "Exodus/02114 0_KJV_Bible-Exodus032.mp3"
+                },
+                {
+                    "file": "Exodus/02119 0_KJV_Bible-Exodus033.mp3"
+                },
+                {
+                    "file": "Exodus/02121 0_KJV_Bible-Exodus034.mp3"
+                },
+                {
+                    "file": "Exodus/02124 0_KJV_Bible-Exodus035.mp3"
+                },
+                {
+                    "file": "Exodus/02125 0_KJV_Bible-Exodus036.mp3"
+                },
+                {
+                    "file": "Exodus/02127 0_KJV_Bible-Exodus037.mp3"
+                },
+                {
+                    "file": "Exodus/02128 0_KJV_Bible-Exodus038.mp3"
+                },
+                {
+                    "file": "Exodus/02132 0_KJV_Bible-Exodus039.mp3"
+                },
+                {
+                    "file": "Exodus/02134 0_KJV_Bible-Exodus040.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Genesis",
+            "files": [
+                {
+                    "file": "Genesis/.bzEmpty"
+                }
+            ]
+        }
+    ]
+}
